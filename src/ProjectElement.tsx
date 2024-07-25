@@ -1,4 +1,4 @@
-import styles from "./Project.module.css";
+import styles from "./ProjectElement.module.css";
 import React from "react";
 import {Link} from "react-router-dom";
 
