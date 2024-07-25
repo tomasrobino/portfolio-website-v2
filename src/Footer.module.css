@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.footer > * {
+    color: lightgray;
+    margin: 0 10em;
+    font-size: 1.2em;
+}
+
+.footer > *:hover {
+    color: white;
+}
