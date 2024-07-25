@@ -7,4 +7,17 @@
 .group {
     display: flex;
     flex-direction: column;
+    overflow: hidden;
+}
+
+.expand {
+    transition-property: transform;
+    transition-duration: 200ms;
+    transform: scale(1.5);
+}
+
+.contract {
+    transition-property: transform;
+    transition-duration: 200ms;
+    transform: scale(1);
 }

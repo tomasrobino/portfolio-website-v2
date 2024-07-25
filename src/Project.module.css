@@ -11,9 +11,15 @@
 .img {
     width: auto;
     height: auto;
-    max-width: 60vw;
+    margin-left: 15vw;
+    max-width: 30vw;
     max-height: 140vh;
     border-radius: 1em;
+}
+
+.rightImg {
+    margin-left: 0;
+    margin-right: 15vw;
 }
 
 .titleNDesc {
