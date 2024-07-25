@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import ProjectPage from "./ProjectPage.tsx";
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />
+  },
+  {
+    path: '/projects/:id',
+    element: <ProjectPage title="foisñnfdi" img="dsjio" content={<div></div>} />
   }
 ]);
 
