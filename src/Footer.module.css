@@ -1,7 +1,7 @@
 .footer {
     display: flex;
     justify-content: center;
-    padding: 1em;
+    padding: 1em 1em 30vh;
 }
 
 .footer > * {
