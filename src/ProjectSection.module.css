@@ -10,7 +10,9 @@
 .group {
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    overflow-x: clip;
+    overflow-y: visible;
+    margin-bottom: 20vh;
 }
 
 .expand {
