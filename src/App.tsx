@@ -3,11 +3,13 @@ import Header from "./Header.tsx";
 import styles from "./App.module.css"
 import ProjectSection from "./ProjectSection.tsx";
 import Footer from "./Footer.tsx";
+import About from "./About.tsx";
 
 function App() {
   return (
     <div className={styles.app}>
       <Header />
+      <About />
       <ProjectSection />
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tincidunt aliquam fermentum. Etiam vitae ex accumsan, maximus augue quis, porttitor mauris. Duis libero nisi, mattis sit amet ex eu, hendrerit tempus nibh. Etiam posuere tincidunt mi. Suspendisse blandit nibh dui, at rutrum nibh malesuada nec. Integer vitae vulputate est. Proin quis volutpat mauris. In pellentesque rutrum odio, nec finibus urna ultricies in. Maecenas odio quam, placerat sit amet ligula quis, lobortis pharetra ante. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque ut nisl tellus. Mauris faucibus, arcu non iaculis scelerisque, lectus diam bibendum justo, vitae pulvinar ex nulla vitae augue. Vivamus ut lectus fringilla, egestas odio ut, porta tellus. Curabitur diam mi, ornare sit amet nisi et, posuere fringilla nisl. Donec in laoreet lorem.
 
