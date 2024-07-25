@@ -1,8 +1,25 @@
 .project {
-    width: 100%;
     height: fit-content;
+    display: flex;
+    margin-top: 10em;
 }
 
 .alignment {
-    align-self: end;
+    flex-direction: row-reverse;
+}
+
+.img {
+    width: auto;
+    height: auto;
+    max-width: 60vw;
+    max-height: 140vh;
+}
+
+.titleNDesc {
+    margin: 0 2em;
+    width: 20vw;
+}
+
+.justify {
+    text-align: end;
 }
