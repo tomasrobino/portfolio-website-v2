@@ -50,7 +50,7 @@ export default function ProjectSection() {
   }, [ref1, ref2, ref3]);
 
   return (
-    <div className={styles.section}>
+    <div className={styles.section} id="projects">
       <h1 className={styles.title}>Projects</h1>
       <div className={styles.group}>
         <Project ref={ref1} image={"https://picsum.photos/1000"} title={"Example project"} description={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum dictum nisi, eget vestibulum mi tempus sit amet. Nulla lobortis elementum mauris, et auctor sapien condimentum mattis."}/>
