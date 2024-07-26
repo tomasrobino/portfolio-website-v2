@@ -13,7 +13,6 @@ export default function About() {
       <svg
         onClick={handleClick}
         className={styles.icon}
-        width="30vw"
         height="30vh"
         viewBox="0 0 24 24"
         fill="none"

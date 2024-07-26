@@ -39,6 +39,7 @@
 }
 
 .icon {
+    cursor: pointer;
     align-self: center;
     opacity: 1;
     animation-name: arrowAnimation;
