@@ -46,6 +46,7 @@
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     animation-duration: 2s;
+    margin-right: -5vw;
 }
 
 @keyframes arrowAnimation {
