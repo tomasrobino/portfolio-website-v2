@@ -54,6 +54,10 @@
     .icon {
         height: 20vh;
     }
+
+    .title, .subtitle {
+         padding-left: 10px;
+     }
 }
 
 @keyframes arrowAnimation {
