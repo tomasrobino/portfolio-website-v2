@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import ProjectPage from "./ProjectPage.tsx";
+import TerrainGenerator from "./projects/TerrainGenerator.tsx";
 
 const router = createBrowserRouter([
   {
@@ -11,8 +11,8 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path: '/projects/:id',
-    element: <ProjectPage title="Terrain Generator" img="dsjio" content={<div></div>} />
+    path: '/projects/terrain-generator',
+    element: <TerrainGenerator />
   }
 ]);
 
