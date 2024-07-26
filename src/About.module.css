@@ -47,6 +47,13 @@
     animation-timing-function: ease-in;
     animation-duration: 2s;
     margin-right: -5vw;
+    height: 30vh;
+}
+
+@media screen and (max-width: 500px) {
+    .icon {
+        height: 20vh;
+    }
 }
 
 @keyframes arrowAnimation {

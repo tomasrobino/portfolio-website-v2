@@ -10,7 +10,7 @@ export default function About() {
     <section id="about" className={styles.section}>
       <h1 className={`${styles.title} ${styles.fadeIn}`}>I'm <span className={styles.highlight}>Tomas</span>,</h1>
       <h1 className={`${styles.subtitle} ${styles.fadeIn}`}> a web developer seeking to create <span className={styles.highlight}>great</span> user experiences</h1>
-      <svg onClick={handleClick} className={styles.icon} height="30vh" viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
+      <svg onClick={handleClick} className={styles.icon} viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
         <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
         <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
         <g id="SVGRepo_iconCarrier">
