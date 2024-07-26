@@ -1,9 +1,12 @@
 .section {
     margin-bottom: 40vh;
     margin-right: 5vw;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
+    margin-top: 5vh;
     font-size: 10em;
     margin-bottom: 0;
 }
@@ -16,4 +19,42 @@
 .highlight {
     color: white;
     font-weight: bold;
+}
+
+.fadeIn {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.icon {
+    align-self: center;
+    opacity: 1;
+    animation-name: arrowAnimation;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+@keyframes arrowAnimation {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
