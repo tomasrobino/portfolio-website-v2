@@ -12,7 +12,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/projects/:id',
-    element: <ProjectPage title="foisñnfdi" img="dsjio" content={<div></div>} />
+    element: <ProjectPage title="Terrain Generator" img="dsjio" content={<div></div>} />
   }
 ]);
 
