@@ -7,13 +7,13 @@
 
 .title {
     margin-top: 5vh;
-    font-size: clamp(5em, 10em, 20vw);
+    font-size: clamp(5em, 10em, 10vw);
     margin-bottom: 0;
 }
 
 .subtitle {
     margin-top: 0;
-    font-size: clamp(3em, 5em, 15vw);
+    font-size: clamp(2.5em, 5em, 5vw);
 }
 
 .highlight {
