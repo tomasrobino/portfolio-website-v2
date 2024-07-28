@@ -8,6 +8,14 @@
     flex-direction: row-reverse;
 }
 
+.link {
+    color: lightgray;
+}
+
+.link:hover {
+    color: lightgray;
+}
+
 .img {
     width: auto;
     height: auto;
