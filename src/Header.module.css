@@ -12,6 +12,8 @@ header {
 }
 
 .headerLink {
+    cursor: pointer;
+    display: inline;
     padding: 0 0.5em;
     color: lightgray;
     font-size: 1em;
