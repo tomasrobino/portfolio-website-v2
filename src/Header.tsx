@@ -2,12 +2,12 @@ import styles from "./Header.module.css"
 
 export default function Header() {
   function handleAbout() {
-    const id =document.getElementById("about")
+    const id = document.getElementById("about")
     if (id) id.scrollIntoView({ behavior: "smooth" })
   }
 
   function handleProjects() {
-    const id =document.getElementById("projects")
+    const id = document.getElementById("projects")
     if (id) id.scrollIntoView({ behavior: "smooth" })
   }
 
