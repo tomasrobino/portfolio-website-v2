@@ -13,7 +13,6 @@ const ProjectElement = React.forwardRef((props: { alignment?: boolean , id: stri
           </Link>
         </div>
       </div>
-
   )
 })
 
