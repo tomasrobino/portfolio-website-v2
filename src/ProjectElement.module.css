@@ -2,14 +2,19 @@
     height: 80vh;
     display: flex;
     margin-top: 10em;
+    justify-content: center;
 }
 
-.alignment {
-    flex-direction: row-reverse;
+@media screen and (max-width: 500px) {
+    .project {
+        flex-direction: column;
+    }
 }
-
 .link {
     color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .link:hover {
@@ -23,13 +28,18 @@
 }
 
 .titleNDesc {
-    margin: 0 2em;
+    margin: 2em 2em;
     width: auto;
     height: 100%;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
 }
+
+.titleNDescRight {
+    text-align: end;
+}
+
 
 .title {
     margin-top: -0.2em;
@@ -45,8 +55,10 @@
     padding-left: 20vw;
 }
 
-.justify {
-    text-align: end;
+@media screen and (max-width: 500px) {
+    .desc, .descRight {
+        padding: 0;
+    }
 }
 
 .languagesDiv {
