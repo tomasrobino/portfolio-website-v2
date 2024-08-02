@@ -5,10 +5,18 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 
 
-export default function ProjectElement(props: { alignment?: boolean , id: string, title: string, image: string, description: string }) {
+export default function ProjectElement(props: { languages: string[], alignment?: boolean , id: string, title: string, image: string, description: string }) {
   useEffect(( ) => {
     AOS.init();
   }, []);
+
+  const languagesArray = [];
+
+  for (let i = 0; i < props.languages.length; i++) {
+    languagesArray.push(
+      <p className={`${styles.language} ${props.alignment?  styles.languageRight : ""}`}>{props.languages[i]}</p>
+    );
+  }
 
 
   return (
@@ -19,6 +27,9 @@ export default function ProjectElement(props: { alignment?: boolean , id: string
           <h1 className={styles.title}>{props.title}</h1>
           <p className={`${styles.desc} ${props.alignment? styles.descRight : ""}`}>{props.description}</p>
         </Link>
+        <div className={`${styles.languagesDiv}   ${props.alignment?  styles.languagesDivRight : ""}`}>
+          {...languagesArray}
+        </div>
       </div>
     </div>
   )

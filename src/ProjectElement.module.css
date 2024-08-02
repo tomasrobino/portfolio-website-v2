@@ -1,5 +1,5 @@
 .project {
-    height: fit-content;
+    height: 80vh;
     display: flex;
     margin-top: 10em;
 }
@@ -25,6 +25,10 @@
 .titleNDesc {
     margin: 0 2em;
     width: auto;
+    height: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
 }
 
 .title {
@@ -43,4 +47,28 @@
 
 .justify {
     text-align: end;
+}
+
+.languagesDiv {
+    display: flex;
+    font-size: 1.4em;
+}
+
+.languagesDivRight {
+    flex-direction: row-reverse;
+}
+
+.language {
+    color: white;
+    margin-right: 1em;
+    background-color: grey;
+    padding: 0.2em 0.5em;
+    border-radius: 0.5em;
+}
+
+.languageRight {
+    margin-right: 0;
+    margin-left: 1em;
+    text-align: left;
+    width: fit-content;
 }
