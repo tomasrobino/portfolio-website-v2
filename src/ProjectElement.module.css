@@ -17,8 +17,8 @@
 }
 
 .img {
-    width: 80vh;
-    height: 80vh;
+    width: min(90vw, 80vh);
+    height: min(90vw, 80vh);
     border-radius: 1em;
 }
 
