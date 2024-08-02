@@ -15,17 +15,3 @@
     overflow-y: visible;
     margin-bottom: 20vh;
 }
-
-.expand {
-    transition-property: transform;
-    transition-duration: 200ms;
-    transform: scale(1.5);
-    z-index: 1;
-}
-
-.contract {
-    transition-property: transform;
-    transition-duration: 200ms;
-    transform: scale(1);
-    z-index: 1;
-}
