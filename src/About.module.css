@@ -7,7 +7,7 @@
 
 .title {
     margin-top: 5vh;
-    font-size: clamp(5em, 10em, 10vw);
+    font-size: clamp(4.2em, 10em, 10vw);
     margin-bottom: 0;
 }
 
