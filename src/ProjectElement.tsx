@@ -20,7 +20,7 @@ export default function ProjectElement(props: { languages: string[], alignment?:
 
 
   return (
-    <div data-aos="zoom-in" className={`${styles.project} ${props.alignment ? styles.alignment : ""}`}>
+    <div data-aos="zoom-in-down" className={`${styles.project} ${props.alignment ? styles.alignment : ""}`}>
       <Link to={`/projects/${props.id}`} className={styles.link}><img src={props.image} alt={props.title} className={styles.img}/></Link>
       <div data-aos={props.alignment ? "fade-left" : "fade-right"} data-aos-delay="300" className={`${styles.titleNDesc} ${props.alignment ? styles.titleNDescRight : ""}`}>
         <Link to={`/projects/${props.id}`} className={styles.link}>

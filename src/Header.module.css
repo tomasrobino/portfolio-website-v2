@@ -11,7 +11,13 @@ header {
     height: 100%;
 }
 
+.headerGroup {
+    display: flex;
+    align-items: center;
+}
+
 .headerLink {
+    margin: 0;
     cursor: pointer;
     display: inline;
     padding: 0 0.5em;
