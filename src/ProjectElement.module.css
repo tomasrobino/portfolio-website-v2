@@ -9,6 +9,7 @@
         flex-direction: row-reverse;
     }
 }
+
 .link {
     color: lightgray;
 }
@@ -43,7 +44,7 @@
 
 .desc {
     font-size: 1.5em;
-    padding-right: 20vw;
+    padding-right: 20vw;;
 }
 
 .descRight {
@@ -75,10 +76,23 @@
     width: fit-content;
 }
 
+@media screen and (max-width: 1100px) and (min-width: 501px) {
+    .desc {
+        font-size: 1.5em;
+        padding-right: 0;
+    }
+
+    .descRight {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .project {
         flex-direction: column;
         justify-content: center;
+        height: fit-content;
     }
 
     .titleNDesc {
