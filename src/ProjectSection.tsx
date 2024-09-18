@@ -14,91 +14,91 @@ export default function ProjectSection() {
     {
       languages: ["Typescript", "Node.js"],
       url: "terrain-generator",
-      image: "https://picsum.photos/1000",
+      image: "https://placehold.co/1000",
       title: "Terrain Generator",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum dictum nisi, eget vestibulum mi tempus sit amet. Nulla lobortis elementum mauris, et auctor sapien condimentum mattis."
     },
     {
       languages: ["Javascript", "Node.js"],
       url: "image-to-ascii",
-      image: "https://picsum.photos/1000",
+      image: "https://placehold.co/1000",
       title: "Image to ASCII",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum dictum nisi, eget vestibulum mi tempus sit amet. Nulla lobortis elementum mauris, et auctor sapien condimentum mattis."
     },
     {
       languages: ["Javascript", "Node.js"],
       url: "game-of-life",
-      image: "https://picsum.photos/1000",
+      image: "https://placehold.co/1000",
       title: "Game of Life",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum dictum nisi, eget vestibulum mi tempus sit amet. Nulla lobortis elementum mauris, et auctor sapien condimentum mattis."
     },
     {
       languages: ["Javascript", "Node.js"],
       url: "imdb-scraper",
-      image: "https://picsum.photos/1000",
+      image: "https://placehold.co/1000",
       title: "IMDB Scraper",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum dictum nisi, eget vestibulum mi tempus sit amet. Nulla lobortis elementum mauris, et auctor sapien condimentum mattis."
     },
     {
       languages: ["Javascript", "Node.js"],
       url: "movie-list",
-      image: "https://picsum.photos/1000",
+      image: "https://placehold.co/1000",
       title: "Movie List",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum dictum nisi, eget vestibulum mi tempus sit amet. Nulla lobortis elementum mauris, et auctor sapien condimentum mattis."
     },
     {
       languages: ["React", "TypeScript", "Axios"],
       url: "vg-showcase",
-      image: "https://picsum.photos/1000",
+      image: "https://placehold.co/1000",
       title: "Videogame Showcase",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum dictum nisi, eget vestibulum mi tempus sit amet. Nulla lobortis elementum mauris, et auctor sapien condimentum mattis."
     },
     {
       languages: ["Python", "IP API", "Open Meteo"],
       url: "plain-weather-cli",
-      image: "https://picsum.photos/1000",
+      image: "https://placehold.co/1000",
       title: "PLain Weather (CLI)",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum dictum nisi, eget vestibulum mi tempus sit amet. Nulla lobortis elementum mauris, et auctor sapien condimentum mattis."
     },
     {
       languages: ["Javascript", "HTML", "CSS", "IP API", "Open Meteo"],
       url: "plain-weather",
-      image: "https://picsum.photos/1000",
+      image: "https://placehold.co/1000",
       title: "PLain Weather",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum dictum nisi, eget vestibulum mi tempus sit amet. Nulla lobortis elementum mauris, et auctor sapien condimentum mattis."
     },
     {
       languages: ["Java", "MySQL"],
       url: "banking-program",
-      image: "https://picsum.photos/1000",
+      image: "https://placehold.co/1000",
       title: "Banking Program",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum dictum nisi, eget vestibulum mi tempus sit amet. Nulla lobortis elementum mauris, et auctor sapien condimentum mattis."
     },
     {
       languages: ["React", "Node.js", "Express"],
       url: "cayetano-vende",
-      image: "https://picsum.photos/1000",
+      image: "https://placehold.co/1000",
       title: "Cayetano Vende",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum dictum nisi, eget vestibulum mi tempus sit amet. Nulla lobortis elementum mauris, et auctor sapien condimentum mattis."
     },
     {
       languages: ["React"],
       url: "actas-website",
-      image: "https://picsum.photos/1000",
+      image: "https://placehold.co/1000",
       title: "Actas Website",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum dictum nisi, eget vestibulum mi tempus sit amet. Nulla lobortis elementum mauris, et auctor sapien condimentum mattis."
     },
     {
       languages: ["Javascript", "HTML", "CSS", "Webpack", "Pixi.js"],
       url: "tetris",
-      image: "https://picsum.photos/1000",
+      image: "https://placehold.co/1000",
       title: "Tetris",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum dictum nisi, eget vestibulum mi tempus sit amet. Nulla lobortis elementum mauris, et auctor sapien condimentum mattis."
     },
     {
       languages: ["Javascript", "HTML", "CSS", "Webpack", "Pixi.js"],
       url: "chess",
-      image: "https://picsum.photos/1000",
+      image: "https://placehold.co/1000",
       title: "Chess",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque elementum dictum nisi, eget vestibulum mi tempus sit amet. Nulla lobortis elementum mauris, et auctor sapien condimentum mattis."
     },
